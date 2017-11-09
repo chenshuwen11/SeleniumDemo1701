@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" >
+  <test name="SeleniumDemo1701">
+    <classes>
+      <class name="com.meiyoung.day1.TestNGDemo1">
+      <methods>
+        <exclude name="testCase2"/>
+      </methods>
+      </class> 
+      <class name="com.meiyoung.day1.TestNGDemo2">
+      </class><!-- com.meiyoung.day3.JSTest -->
+    </classes>
+  </test> <!-- SeleniumDemo1701 -->
+</suite> <!-- Default Suite -->
