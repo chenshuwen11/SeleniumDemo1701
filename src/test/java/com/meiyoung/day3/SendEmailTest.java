@@ -28,7 +28,7 @@ public class SendEmailTest {
     }
     @Test
     public void sendEmail() throws InterruptedException {
-        LoginTest.login(driver,"meyoungtester","meyoung123");
+        LoginTest.loginPo(driver,"meyoungtester","meyoung123");
         //点击写信按钮
         driver.findElement(By.xpath(".//*[@id='dvNavTop']/ul/li[2]/span[2]")).click();
         driver.findElement(By.className("nui-editableAddr-ipt")).sendKeys("825840441@qq.com");
